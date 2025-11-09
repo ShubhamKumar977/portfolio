@@ -1,0 +1,172 @@
+{
+  "personal": {
+    "name": "Shubham Kumar Gupta",
+    "title": "Senior Automation Developer",
+    "tagline": "DevOps | Cloud Infrastructure | Automation Specialist",
+    "initials": "SKG",
+    "email": "shubha.gns@gmail.com",
+    "linkedin": "https://linkedin.com/in/shubham-k-b75924161",
+    "github": "https://github.com/shubhamkgupta",
+    "resumeFile": "Shubham_Kumar_Gupta_Resume.pdf"
+  },
+  "about": [
+    "I'm a Senior Automation Developer at Hexagon with a passion for DevOps, cloud infrastructure automation, and configuration management. With over 3 years of professional experience, I specialize in automating Azure resource provisioning using Terraform, ARM Templates, and PowerShell, while also implementing configuration automation through Puppet and Azure DSC.",
+    "I hold a Bachelor's degree in Computer Science and Engineering from Chandigarh University (2017-2021). My journey in technology has taken me from software development to DevOps automation, where I've successfully reduced deployment times by up to 80% through innovative automation solutions. I'm driven by the challenge of solving complex infrastructure problems and continuously learning new technologies to deliver efficient, scalable solutions."
+  ],
+  "experience": [
+    {
+      "title": "Senior Automation Developer",
+      "company": "Hexagon",
+      "period": "Jan 2024 - Present",
+      "description": "Leading automation initiatives for Smart Cloud infrastructure and configuration management.",
+      "responsibilities": [
+        "Migrated Smart Cloud's ARM template (JSON) based deployments to code-based deployments using Terraform",
+        "Implemented and delivered Puppet profiles for configuration of Hexagon WebAPI products, reducing delivery time by up to 80%",
+        "Architected and maintained Cloud Automation backend services for Intergraph Smart Cloud Portal, collaborating closely with frontend teams to integrate seamless application delivery workflows",
+        "Streamlined user onboarding, product deployment, and upgrade processes for Hexagon products hosted in Smart Cloud environment, ensuring rapid delivery and enhanced user experience",
+        "Provided ongoing support for ad-hoc automation via PowerShell scripts and Azure Runbooks"
+      ]
+    },
+    {
+      "title": "Automation Developer",
+      "company": "Hexagon",
+      "period": "Sep 2022 - Jan 2024",
+      "description": "Specialized in DevOps automation and Azure cloud infrastructure provisioning.",
+      "responsibilities": [
+        "Automated Azure Resource Provisioning using Terraform, ARM Templates, and PowerShell Runbooks with Az-Module",
+        "Developed custom Terraform modules for provisioning Azure resources for newly acquired PingFederate Identity Manager, enabling automated deployment and infrastructure management",
+        "Supported configuration automation team working on Puppet and Azure DSC",
+        "Developed and maintained infrastructure as code solutions for cloud deployments"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Smiota",
+      "period": "Mar 2022 - Jul 2022",
+      "description": "Contributed to automation and full-stack development initiatives.",
+      "responsibilities": [
+        "Automated various workflows using Java, Selenium, and Appium",
+        "Contributed to Angular and Java Servlets development as part of the development team"
+      ]
+    },
+    {
+      "title": "Software Engineer",
+      "company": "Hashedin By Deloitte",
+      "period": "Jul 2021 - Feb 2022",
+      "description": "Worked on production bug fixes and feature development for healthcare clients.",
+      "responsibilities": [
+        "Delivered production bug fixes for a HealthCare client",
+        "Collaborated with cross-functional teams to ensure quality deliverables"
+      ]
+    },
+    {
+      "title": "Software Engineering Intern",
+      "company": "Hashedin By Deloitte",
+      "period": "Feb 2021 - Jul 2021",
+      "description": "Developed full-stack applications and gained hands-on experience with modern web technologies.",
+      "responsibilities": [
+        "Worked on xContract project - a document management system for MSAs and SOWs using React and Java Spring Boot",
+        "Developed gTranscriptor - a Google Meet transcription application using React, Firebase, and jQuery"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "degree": "BE in Computer Science and Engineering",
+      "institution": "Chandigarh University",
+      "period": "2017 - 2021",
+      "details": "CGPA: 7.75",
+      "icon": "graduation-cap"
+    }
+  ],
+  "certifications": [
+    {
+      "name": "HackerRank Problem Solving",
+      "issuer": "Advanced & Intermediate",
+      "date": "Feb 2020",
+      "icon": "certificate"
+    },
+    {
+      "name": "HackerRank React",
+      "issuer": "Intermediate",
+      "date": "Mar 2021",
+      "icon": "certificate"
+    },
+    {
+      "name": "HackerRank SQL",
+      "issuer": "Intermediate",
+      "date": "May 2020",
+      "icon": "certificate"
+    },
+    {
+      "name": "NPTEL Data Structures & Algorithms",
+      "issuer": "NPTEL",
+      "date": "Aug 2019",
+      "icon": "certificate"
+    },
+    {
+      "name": "NPTEL Modern Application Development",
+      "issuer": "NPTEL",
+      "date": "Feb 2020",
+      "icon": "certificate"
+    },
+    {
+      "name": "NPTEL Ethical Hacking",
+      "issuer": "NPTEL",
+      "date": "Feb 2020",
+      "icon": "certificate"
+    }
+  ],
+  "skills": [
+    {
+      "category": "Cloud & Infrastructure",
+      "icon": "cloud",
+      "items": ["Azure", "Terraform", "ARM Templates", "PowerShell"]
+    },
+    {
+      "category": "Configuration Management",
+      "icon": "cogs",
+      "items": ["Puppet", "Azure DSC", "Puppet DSC", "Azure Runbooks"]
+    },
+    {
+      "category": "Programming Languages",
+      "icon": "code",
+      "items": ["Java", "Python", "PowerShell", "Ruby", "Haskell"]
+    },
+    {
+      "category": "Development & Frameworks",
+      "icon": "laptop-code",
+      "items": ["React", "Java Spring Boot", "Angular", "Firebase"]
+    },
+    {
+      "category": "Automation & Testing",
+      "icon": "robot",
+      "items": ["Selenium", "Appium", "GitLab CI/CD", "Azure DevOps"]
+    },
+    {
+      "category": "Domain Expertise",
+      "icon": "briefcase",
+      "items": ["DevOps", "Infrastructure as Code", "Cloud Automation", "CI/CD Pipelines"]
+    }
+  ],
+  "projects": [
+    {
+      "name": "Nand2Tetris - Computer Design",
+      "description": "Designed a complete computer system from hardware to software, including building a game called Tetris. Learned fundamentals of OS, Compiler Design, VLSI, HDL, and Digital Design under Prof. Kamakothi's guidance.",
+      "icon": "microchip",
+      "links": []
+    },
+    {
+      "name": "xContract",
+      "description": "A document management system that streamlined writing, reviewing, and making changes to legal documents like MSAs and SOWs. Built with React, Java Spring Boot, and GitLab CI/CD for seamless deployment.",
+      "icon": "file-contract",
+      "links": []
+    },
+    {
+      "name": "gTranscriptor",
+      "description": "A web application with Chrome extension that records and stores Google Meet transcriptions. Features include Google SSO, transcript management (delete, star, highlight), and advanced search by username or keywords. Built with React, Firebase, and jQuery.",
+      "icon": "closed-captioning",
+      "links": []
+    }
+  ]
+}
