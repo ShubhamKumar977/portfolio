@@ -57,6 +57,22 @@ body {
     font-size: 1.5rem;
     font-weight: bold;
     color: var(--primary-color);
+    display: flex;
+    align-items: center;
+}
+
+.nav-profile-img {
+    width: 45px;
+    height: 45px;
+    border-radius: 50%;
+    object-fit: cover;
+    border: 2px solid var(--secondary-color);
+    transition: var(--transition);
+}
+
+.nav-profile-img:hover {
+    transform: scale(1.1);
+    border-color: var(--accent-color);
 }
 
 .nav-menu {

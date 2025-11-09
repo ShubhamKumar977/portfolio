@@ -29,8 +29,13 @@ function renderPortfolio() {
 function renderPersonalInfo() {
     const { personal } = portfolioData;
     
-    // Update nav brand
-    document.querySelector('.nav-brand').textContent = personal.initials;
+    // Update nav brand with profile image
+    const navBrand = document.querySelector('.nav-brand');
+    if (personal.profileImage) {
+        navBrand.innerHTML = `<img src="${personal.profileImage}" alt="${personal.name}" class="nav-profile-img">`;
+    } else {
+        navBrand.textContent = personal.initials;
+    }
     
     // Update hero section
     document.querySelector('.hero h1').textContent = personal.name;
