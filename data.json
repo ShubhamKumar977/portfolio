@@ -151,6 +151,18 @@
   ],
   "projects": [
     {
+      "name": "Spacecrafts Explorer",
+      "description": "An interactive web application showcasing various spacecrafts and space missions. Features dynamic content loading, responsive design, and engaging user interface. Built with modern web technologies and deployed on GitHub Pages.",
+      "icon": "rocket",
+      "links": [
+        {
+          "url": "https://shubhamkumar977.github.io/spacecarfts/",
+          "icon": "fas fa-external-link-alt",
+          "text": "Live Demo"
+        }
+      ]
+    },
+    {
       "name": "Nand2Tetris - Computer Design",
       "description": "Designed a complete computer system from hardware to software, including building a game called Tetris. Learned fundamentals of OS, Compiler Design, VLSI, HDL, and Digital Design under Prof. Kamakothi's guidance.",
       "icon": "microchip",
