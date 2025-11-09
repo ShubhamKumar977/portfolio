@@ -43,6 +43,7 @@ function renderPersonalInfo() {
         <a href="mailto:${personal.email}" aria-label="Email"><i class="fas fa-envelope"></i></a>
         <a href="${personal.linkedin}" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
         <a href="${personal.github}" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        <a href="${personal.leetcode}" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
     `;
     
     // Update resume download link
@@ -158,6 +159,10 @@ function renderContact() {
         <a href="${personal.github}" target="_blank" class="contact-method">
             <i class="fab fa-github"></i>
             <span>GitHub Profile</span>
+        </a>
+        <a href="${personal.leetcode}" target="_blank" class="contact-method">
+            <i class="fas fa-code"></i>
+            <span>LeetCode Profile</span>
         </a>
     `;
 }
