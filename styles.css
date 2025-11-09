@@ -190,15 +190,16 @@ body {
     top: 120%;
     left: 50%;
     transform: translateX(-50%) scale(0.95);
-    background: white;
+    background: rgba(255, 255, 255, 0.98);
     border-radius: 12px;
     box-shadow: 0 10px 30px rgba(0,0,0,0.3);
     padding: 8px;
-    min-width: 160px;
+    min-width: 180px;
     opacity: 0;
     visibility: hidden;
     transition: all 0.3s ease;
     z-index: 1000;
+    backdrop-filter: blur(10px);
 }
 
 .coding-profiles-dropdown:hover .coding-profiles-menu {
@@ -211,19 +212,24 @@ body {
     display: flex;
     align-items: center;
     gap: 10px;
-    padding: 10px 15px;
+    padding: 12px 16px;
     color: var(--primary-color);
     text-decoration: none;
     border-radius: 8px;
     transition: var(--transition);
     font-size: 0.95rem;
-    font-weight: 500;
+    font-weight: 600;
+    white-space: nowrap;
 }
 
 .coding-profile-link:hover {
     background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
-    color: white;
+    color: white !important;
     transform: translateX(5px);
+}
+
+.coding-profile-link i {
+    color: inherit;
 }
 
 .coding-profile-link i {
