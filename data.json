@@ -7,7 +7,10 @@
     "email": "shubha.gns@gmail.com",
     "linkedin": "https://linkedin.com/in/shubham-k-b75924161",
     "github": "https://github.com/ShubhamKumar977",
-    "leetcode": "https://leetcode.com/u/user1609F/",
+    "codingProfiles": {
+      "leetcode": "https://leetcode.com/u/user1609F/",
+      "hackerrank": "https://www.hackerrank.com/profile/shubha_gns"
+    },
     "resumeFile": "Shubham_Kumar_Gupta_Resume.pdf"
   },
   "about": [

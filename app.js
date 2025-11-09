@@ -42,8 +42,22 @@ function renderPersonalInfo() {
     socialLinks.innerHTML = `
         <a href="mailto:${personal.email}" aria-label="Email"><i class="fas fa-envelope"></i></a>
         <a href="${personal.linkedin}" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin"></i></a>
-        <a href="${personal.github}" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
-        <a href="${personal.leetcode}" target="_blank" aria-label="LeetCode"><i class="fas fa-code"></i></a>
+        <div class="coding-profiles-dropdown">
+            <button class="coding-profiles-btn" aria-label="Coding Profiles">
+                <i class="fas fa-code"></i>
+            </button>
+            <div class="coding-profiles-menu">
+                <a href="${personal.github}" target="_blank" class="coding-profile-link">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+                <a href="${personal.codingProfiles.leetcode}" target="_blank" class="coding-profile-link">
+                    <i class="fas fa-terminal"></i> LeetCode
+                </a>
+                <a href="${personal.codingProfiles.hackerrank}" target="_blank" class="coding-profile-link">
+                    <i class="fab fa-hackerrank"></i> HackerRank
+                </a>
+            </div>
+        </div>
     `;
     
     // Update resume download link
@@ -160,9 +174,13 @@ function renderContact() {
             <i class="fab fa-github"></i>
             <span>GitHub Profile</span>
         </a>
-        <a href="${personal.leetcode}" target="_blank" class="contact-method">
-            <i class="fas fa-code"></i>
+        <a href="${personal.codingProfiles.leetcode}" target="_blank" class="contact-method">
+            <i class="fas fa-terminal"></i>
             <span>LeetCode Profile</span>
+        </a>
+        <a href="${personal.codingProfiles.hackerrank}" target="_blank" class="contact-method">
+            <i class="fab fa-hackerrank"></i>
+            <span>HackerRank Profile</span>
         </a>
     `;
 }
