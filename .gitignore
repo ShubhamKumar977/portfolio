@@ -1,0 +1,19 @@
+# Resume PDF (keep old resume private, but allow the generated one)
+shubhams_updated_resume.pdf
+
+# HTML resume template (not needed in production)
+resume.html
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Logs
+*.log
