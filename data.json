@@ -82,9 +82,35 @@
       "period": "2017 - 2021",
       "details": "CGPA: 7.75",
       "icon": "graduation-cap"
+    },
+    {
+      "degree": "ISC (11th - 12th) in PCMB",
+      "institution": "St Josephs School",
+      "period": "2014 - 2016",
+      "details": "Percentage: 90.2%",
+      "icon": "school"
+    },
+    {
+      "degree": "ICSE (10th)",
+      "institution": "Gyanoday Niketan",
+      "period": "2013 - 2014",
+      "details": "Percentage: 85%",
+      "icon": "school"
     }
   ],
   "certifications": [
+    {
+      "name": "Full Stack Software Engineering",
+      "issuer": "Code Quotient (University of Kurukshetra)",
+      "date": "2020",
+      "icon": "certificate"
+    },
+    {
+      "name": "AMCAT Certificate of Recognition",
+      "issuer": "AMCAT - Scored >800/900",
+      "date": "2020",
+      "icon": "award"
+    },
     {
       "name": "HackerRank Problem Solving",
       "issuer": "Advanced & Intermediate",

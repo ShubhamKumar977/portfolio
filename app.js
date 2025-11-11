@@ -20,6 +20,7 @@ function renderPortfolio() {
     renderAbout();
     renderExperience();
     renderEducation();
+    renderCertifications();
     renderSkills();
     renderProjects();
     renderContact();
@@ -101,11 +102,11 @@ function renderExperience() {
     `).join('');
 }
 
-// Render education and certifications
+// Render education section
 function renderEducation() {
     const educationGrid = document.querySelector('.education-grid');
     
-    // Render education
+    // Render only education
     const educationHTML = portfolioData.education.map(edu => `
         <div class="education-item">
             <div class="education-icon"><i class="fas fa-${edu.icon}"></i></div>
@@ -115,6 +116,13 @@ function renderEducation() {
             <p>${edu.details}</p>
         </div>
     `).join('');
+    
+    educationGrid.innerHTML = educationHTML;
+}
+
+// Render certifications section
+function renderCertifications() {
+    const certificationsGrid = document.querySelector('.certifications-grid');
     
     // Render certifications
     const certificationsHTML = portfolioData.certifications.map(cert => `
@@ -126,7 +134,7 @@ function renderEducation() {
         </div>
     `).join('');
     
-    educationGrid.innerHTML = educationHTML + certificationsHTML;
+    certificationsGrid.innerHTML = certificationsHTML;
 }
 
 // Render skills
