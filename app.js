@@ -4,8 +4,9 @@ let portfolioData = null;
 // Load portfolio data
 async function loadPortfolioData() {
     try {
-        const response = await fetch('data.json');
+        const response = await fetch('data.json?v=' + Date.now());
         portfolioData = await response.json();
+        console.log('Portfolio data loaded:', portfolioData);
         renderPortfolio();
     } catch (error) {
         console.error('Error loading portfolio data:', error);
@@ -105,6 +106,10 @@ function renderExperience() {
 // Render education section
 function renderEducation() {
     const educationGrid = document.querySelector('.education-grid');
+    if (!educationGrid) {
+        console.error('Education grid not found');
+        return;
+    }
     
     // Render only education
     const educationHTML = portfolioData.education.map(edu => `
@@ -118,11 +123,16 @@ function renderEducation() {
     `).join('');
     
     educationGrid.innerHTML = educationHTML;
+    console.log('Education rendered:', portfolioData.education.length, 'items');
 }
 
 // Render certifications section
 function renderCertifications() {
     const certificationsGrid = document.querySelector('.certifications-grid');
+    if (!certificationsGrid) {
+        console.error('Certifications grid not found');
+        return;
+    }
     
     // Render certifications
     const certificationsHTML = portfolioData.certifications.map(cert => `
@@ -135,6 +145,7 @@ function renderCertifications() {
     `).join('');
     
     certificationsGrid.innerHTML = certificationsHTML;
+    console.log('Certifications rendered:', portfolioData.certifications.length, 'items');
 }
 
 // Render skills
